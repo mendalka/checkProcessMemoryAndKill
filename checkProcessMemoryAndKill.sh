@@ -21,4 +21,4 @@ fi
 ps_fmem=`echo ${tmp_output} | awk '{print $4}' `
 ps_mem=`printf "%.0f" "${ps_fmem}"`
 
-if [ "$ps_mem" -gt 90 ] ; then date; echo "Memory problem for AisRouter , now is  ${ps_mem}%. Restart." ; /etc/init.d/ais.run restart; echo; fi;
+if [ "$ps_mem" -gt 90 ] ; then date; echo "Memory problem for $process_name , now is  ${ps_mem}%. Restart." ; /etc/init.d/ais.run restart; echo; fi;
