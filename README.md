@@ -19,3 +19,4 @@ Stupid and ugly script to monitor memory consumption by a group of processes, an
 - [ ] Uranus
 - [ ] Neptune
 - [ ] Comet Haley
+- [ ] TET2 
